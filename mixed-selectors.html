@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        .green{
+            color: green;
+        }
+        .yellow-bg{
+            background-color: yellow;
+        }
+        /* common background for p and h3 */
+        /* p, h3{
+            color: blueviolet;
+        } */
+        .hot{
+            color: red;
+        }
+        li.hot{
+            font-weight: 700;
+        }
+        input{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"]{
+            border: 2px solid purple;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3> Mixed Selectors</h3>
+    <p>CSS = <span class="green">Cascading Style Sheet</span></p>
+    <p class="hot">Purpose make website colorful</p>
+    <p>I am exploring CSS</p>
+    <p>I know how to add color</p>
+    <p>My future hubby where are you</p>
+    <h3>Different ways to apply styles</h3>
+    <h4>More heading</h4>
+    <form>
+        <input type="text">
+        <input type="password">
+        <input type="submit" value="Submit">
+    </form>
+    <ol>
+        <li>Inline style</li>
+        <li><span class="green">Embedded</span> internal styles</li>
+        <li class="hot">External styles</li>
+    </ol>
+    <!-- This is my first blog -->
+    <div class="yellow-bg">
+        <h3>This is my Blog</h3>
+        <p class="hot">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo alias facere incidunt libero, inventore, sed a necessitatibus recusandae vitae, iure illum esse rerum debitis deleniti excepturi minima quas ex! Tenetur laboriosam distinctio, quam reprehenderit neque dolore, dolores consequuntur earum delectus assumenda asperiores. Deleniti in deserunt quaerat commodi! Pariatur, tenetur optio!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos optio corporis ex deserunt error, similique tempore voluptate aperiam ducimus possimus quod molestias quis! Maxime minima aspernatur eum quia perspiciatis expedita repudiandae quisquam repellat odio. Esse architecto, suscipit voluptate numquam, iure nam adipisci consectetur libero ad dolores a. Nesciunt suscipit totam quidem, optio quo voluptatibus est unde tempora temporibus minima hic.</p>
+    </div>
+    
+</body>
+</html>

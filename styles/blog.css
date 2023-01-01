@@ -1,0 +1,41 @@
+.header{
+    height: 200px;
+    /* background-image: url('baby.jpg'); */
+    /* background-image: url('../strong.jpg'); */
+    /* background-image: url('../images/home.png'); */
+    background-image: url('../images/developers/developer.png');
+    background-size: cover;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: yellow;
+    /* background-position: top right; */
+}
+.blog{
+    background-color: peru;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 100px;
+}
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+span {
+    border: 1px solid purple;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    display: none;
+}
